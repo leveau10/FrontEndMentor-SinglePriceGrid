@@ -1,0 +1,120 @@
+body{
+    background-color: hsl(204, 43%, 93%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Karla';
+    width: 680px;
+    margin-top: 80px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px .2px grey;
+}
+
+.join-us{
+    background-color: white;
+    padding: 10px 30px 40px 40px;
+    border-radius: 12px 12px 0 0;
+
+
+}
+
+.join-us h1{
+    font-size: 24px;
+    color: hsl(179, 62%, 43%);
+    font-weight: 700;
+}
+
+.join-us h2{
+    font-size: 18px;
+    color: hsl(71, 73%, 54%);
+}
+
+.join-us p{
+    font-size: 16px;
+    color:hsl(202, 4%, 59%);
+    margin: 2px;
+}   
+
+.informations{
+    display: flex;
+    flex-direction: row;
+    gap: 0;
+}
+
+.subscription{
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(179, 62%, 46%);
+    color: hsl(0, 0%, 100%);
+    border-bottom-left-radius: 12px;
+    width: 50%;
+    padding: 20px 30px 24px 40px;
+}
+
+.subscription h2{   
+    font-size: 18px;
+}
+
+.subscription h3{
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin: 0;
+    color: hsl(0, 2%, 90%);
+    font-weight: 100;
+}
+
+.price{
+    font-size: 30px;
+    color: white;
+    font-weight: 700;
+}
+
+.subscription button{
+    font-family: 'Karla';
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    background-color: hsl(71, 73%, 54%);
+    border: none;
+    border-radius: 6px;
+    padding: 16px 0;
+    margin: 16px 0;
+    box-shadow: 0 0 12px .4px grey;
+    cursor: pointer;
+}
+
+.why-us{
+    color: hsl(0, 0%, 100%);
+    border-bottom-right-radius: 12px;   
+    background-color: hsl(179, 67%, 51%);
+    width: 50%;
+    padding: 20px 30px 24px 40px;   
+}
+
+.why-us h2{
+    font-size: 18px;
+}
+
+.why-us p{
+    margin: 3px;
+    font-size: 14px;
+}
+
+
+.attribution{
+    font-size: 14px;
+    margin-top: 20px;
+    font-family:'Karla', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+a{
+    text-decoration: none;
+    font-weight: 700;
+}
