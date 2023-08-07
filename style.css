@@ -32,6 +32,7 @@ body{
 .join-us h2{
     font-size: 18px;
     color: hsl(71, 73%, 54%);
+    font-weight: 700;
 }
 
 .join-us p{
@@ -64,13 +65,14 @@ body{
     display: flex;
     align-items: center;
     gap: 14px;
+    font-size: 16px;
     margin: 0;
     color: hsl(0, 2%, 90%);
     font-weight: 100;
 }
 
 .price{
-    font-size: 30px;
+    font-size: 36px;
     color: white;
     font-weight: 700;
 }
@@ -111,10 +113,71 @@ body{
     font-size: 14px;
     margin-top: 20px;
     font-family:'Karla', Tahoma, Geneva, Verdana, sans-serif;
+    text-align:center;
 }
-
+.attribution p{
+    margin: 5px;
+}
 
 a{
     text-decoration: none;
     font-weight: 700;
+}
+
+@media (max-width: 480px){
+    .card{
+        width: 300px;
+        margin-top: 40px;
+    }
+    .join-us{
+        padding: 10px 15px 30px 20px;
+    }
+    .join-us h1{
+        font-size: 20px;
+    }
+    
+    .join-us h2{
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+    
+    .join-us p{
+        font-size: 14px;
+        margin: 5px 0;
+    }   
+
+    .informations{
+        flex-direction: column;
+    }
+
+    .subscription{
+        width: inherit;
+        padding: 10px 15px 15px 20px;
+        border-bottom-left-radius: 0px;
+    }
+    
+    .subscription h2{   
+        font-size: 18px;
+    }
+    
+    .subscription h3{
+        gap: 14px;
+        
+    }
+    
+    .price{
+        font-size: 36px;
+        color: white;
+        font-weight: 700;
+    }
+    
+    .why-us{
+        border-bottom-left-radius: 12px;
+        width: inherit;
+        padding: 10px 15px 15px 20px;  
+    }
+
+    .attribution{
+        text-align:center;
+    }
 }
